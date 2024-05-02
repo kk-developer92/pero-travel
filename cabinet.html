@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pero Travel</title>
+    <meta name="description" content="ПУТЕШЕСТВУЙ PERO TRAVEL">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+
+    <section class="promo">
+        <div class="container">
+
+            <header class="header">
+                <a href="" class="logo">
+                    <img src="./img/logo.svg" alt="">
+                </a>
+                <button class="hamburger">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="7" width="40" height="5" rx="2.5" fill="white"/>
+                        <rect y="17" width="40" height="5" rx="2.5" fill="white"/>
+                        <rect y="27" width="40" height="5" rx="2.5" fill="white"/>
+                    </svg>                        
+                </button>
+                <nav class="menu">
+                    <a href="index.html">Главная</a>
+                    <a href="#">Экскурсии</a>
+                    <a class="active" href="#">Личный кабинет</a>
+                </nav>
+            </header>
+
+            <h1>Личный кабинет</h1>
+
+
+        </div>
+    </section>
+
+    
+    
+    <script>
+        let btn = document.querySelector(".hamburger")
+        let menu = document.querySelector(".menu")
+
+        btn.onclick = () => menu.classList.toggle("open")
+    </script>
+</body>
+</html>
